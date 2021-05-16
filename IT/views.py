@@ -35,3 +35,6 @@ def search(request):
 def delete(request):
     ServiceData.objects.get(id=pk).delete()
     return redirect('services')
+
+def test():
+    test
